@@ -1,0 +1,59 @@
+#home{padding:40px 0 50px; min-height: 500px;}
+header{height: 65px;background: #4682CC;line-height: 65px;}
+.white-logo{
+  display: inline-block;
+  width: 170px;
+  height: 40px;
+  background: url(../img/white.logo.png) no-repeat;
+  background-size: 95%;
+  background-position: 0 0;
+  position: relative;
+  top: 13px;
+  left: 15px;
+}
+.btn-hotlists{cursor: pointer;display: inline-block;height: 100%;color: #fff;padding:0 20px;}
+.btn-hotlists.active{background: #3C76BE;}
+.mirror-date{
+  width: 120px;height: 110px;background:#2C97E8;text-align: center;
+  color: #fff;
+  .hrs{width: 80%;margin:0 auto;}
+}
+.mirror-article{
+    width: calc(~"100% - 120px");
+  height: 110px;
+  background: #fff;
+  padding-left: 5%;
+  color: #666;
+  .h5{line-height: 25px;}
+}
+.mirror-body:hover .mirror-date{
+  background:#2FBA66;
+}
+.hotlists{width: 80%;margin-left: 10%;}
+.username{border-radius: 50px;width:25px;display: inline-block;height: 25px;}
+
+.hotlistsList{
+  padding-bottom: 30px;overflow:hidden;position: relative;
+  .List{clear: both;}
+  .number{width: 40px;height: 40px;background: #3F9FEA;color: #fff;border-radius: 40px;line-height: 40px;font-size: 2em;text-align: center;}
+  .host-body{
+    margin-left: 70px;
+    .h3{color: #3782E7}
+    ul{float: left;width: 70%;
+      li{
+        line-height: 35px;
+      }
+    }
+    .img-src{float: right;width: 30%;img{margin-left: 10px; max-height: 180px;float: right}}
+  }
+}
+.hotlistsList:before{
+  content: '';
+  position: absolute;
+  width: 90%;height: 100%;
+  border-left: 4px solid #3F9FEA;
+  left: 18px;
+  z-index: -1;
+  top: 20px;
+}
+footer{height: 60px;}
