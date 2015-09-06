@@ -1,4 +1,4 @@
-FROM golang:1.4.2
+FROM edcapding/beegoimage:latest
 
 ADD src/. $GOPATH/src
 
