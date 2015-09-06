@@ -1,4 +1,4 @@
-FROM edcapding/beegoimage
+FROM index.tenxcloud.com/edcapding/beegoimage
 
 ADD src/. $GOPATH/src
 
