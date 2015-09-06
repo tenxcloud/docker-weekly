@@ -1,4 +1,4 @@
-FROM edcapding/beegoimage:latest
+FROM edcapding/beegoimage
 
 ADD src/. $GOPATH/src
 
