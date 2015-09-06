@@ -1,6 +1,6 @@
 FROM golang:1.4.2
 
-ADD . $GOPATH/src
+ADD src/. $GOPATH/src
 
 EXPOSE 8080
 
