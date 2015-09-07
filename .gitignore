@@ -1,2 +1,5 @@
-bin/
+*bin/
 pkg/
+src/github.com/
+*swp
+docker-weekly/main
