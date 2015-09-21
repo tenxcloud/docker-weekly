@@ -10,4 +10,5 @@ type IssueController struct {
 
 func (c *IssueController) Get() {
   c.TplNames = "issues.tpl"
+  //c.Data["maps0"] = ReadSql()
 }

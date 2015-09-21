@@ -21,7 +21,7 @@
     <div class="container">
       <a href="/"><span class="white-logo"></span></a>
       <div class="pull-right">
-        <a href='/'><span class="btn-hotlists todayhotlists">今天推荐</span></a>
+        <a href='/'><span class="btn-hotlists todayhotlists">本期推荐</span></a>
         <a href='/issues'><span class="btn-hotlists historyhotlists active">往期回顾</span></a>
       </div>
     </div>
@@ -32,8 +32,23 @@
     <br>
     <br>
     <div class="container">
-      <div class="col-xs-12 col-md-6">
+      <div class="col-xs-12 col-md-6 week">
         <a href="/">
+          <div class="mirror-body">
+            <div class="mirror-date pull-left">
+              <div class="h3">第2期</div>
+              <hr class="hrs">
+              <div class="h5">2015-09-20</div>
+            </div>
+            <div class="mirror-article pull-left">
+              <div class="h5">本期精选了“知识型的社交化开源社区程序”，“GHost博客系统”，“ToughRADIUS开源宽带认证计费系统”等。WeCenter 是一款知识型的社交化开源社区程序，专注于企业和行业社区内容的整理、归类、检索和再发行。</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-xs-12 col-md-6 week">
+        <a href="/issue/1">
           <div class="mirror-body">
             <div class="mirror-date pull-left">
               <div class="h3">第1期</div>
@@ -46,6 +61,7 @@
           </div>
         </a>
       </div>
+
 
     </div>
   </div>
