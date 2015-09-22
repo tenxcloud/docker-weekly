@@ -37,10 +37,10 @@
         <div class="List">
           <div class="number pull-left">1</div>
           <div class="host-body">
-            <div class="h3"><a href='http://wecenter-tenxcloud.tenxapp.com/' target='block'>知识型的社交化开源社区程序</a></div>
+            <div class="h3"><a href='http://wecenter-tenxcloud.tenxcloud.net/' target='block'>知识型的社交化开源社区程序</a></div>
             <ul>
               <li>WeCenter 是一款知识型的社交化开源社区程序，专注于企业和行业社区内容的整理、归类、检索和再发行。管理中心为你建立起快速通路，所有功能开关，只需轻点一下，即可轻松完成配置，如此众多的操控，任你一挥而就；WeCenter 含有多项创新功能，遵循 MVC 架构，充分利用当下最新技术，对于开发者来说都会大有帮助，二次开发，更强定制，更易上手；WeCenter 让你用你喜欢的方式，更灵活地定制 URL 路由，URL 地址不再是千篇一律的样式，在 SEO 优化上祝你一臂之力</li>
-              <li> <a href='https://www.tenxcloud.com/marketplace/u/tenxcloud/i/wecenter' target='block'><img src="/static/img/default-head.png" class="username"> catbb49294929/dockerboard</a></li>
+              <li> <a href='https://www.tenxcloud.com/marketplace/u/tenxcloud/i/wecenter' target='block'><img src="/static/img/default-head.png" class="username"> tenxcloud/wecenter</a></li>
               <li>&nbsp;</li>
             </ul>
             <span class="img-src">
