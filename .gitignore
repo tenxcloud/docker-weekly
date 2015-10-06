@@ -1,5 +1,7 @@
 *bin/
 pkg/
 src/github.com/
+src/docker-weekly/tests
+src/docker-weekly/scripts
 *swp
 docker-weekly/main

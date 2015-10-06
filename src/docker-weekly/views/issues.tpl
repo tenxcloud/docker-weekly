@@ -27,42 +27,27 @@
     </div>
   </header>
   <div id="home">
-    <div class="h3 text-center">一周Docker镜像精选</div>
+    <div class="h3 text-center">一周 Docker 镜像精选</div>
     <div class="h5 text-center">往期回顾</div>
     <br>
     <br>
     <div class="container">
-      <div class="col-xs-12 col-md-6 week">
-        <a href="/">
-          <div class="mirror-body">
-            <div class="mirror-date pull-left">
-              <div class="h3">第2期</div>
-              <hr class="hrs">
-              <div class="h5">2015-09-20</div>
+      {{range $k, $v := .articles}}
+        <div class="col-xs-12 col-md-6 week">
+          <a href="/issue/{{$v.Id }}">
+            <div class="mirror-body">
+              <div class="mirror-date pull-left">
+                <div class="h3">第{{$v.Number}}期</div>
+                <hr class="hrs">
+                <div class="h5">{{$v.Created}}</div>
+              </div>
+              <div class="mirror-article pull-left">
+                <div class="h5">{{$v.Title}}</div>
+              </div>
             </div>
-            <div class="mirror-article pull-left">
-              <div class="h5">本期精选了“知识型的社交化开源社区程序”，“GHost博客系统”，“ToughRADIUS开源宽带认证计费系统”等。WeCenter 是一款知识型的社交化开源社区程序，专注于企业和行业社区内容的整理、归类、检索和再发行。</div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-xs-12 col-md-6 week">
-        <a href="/issue/1">
-          <div class="mirror-body">
-            <div class="mirror-date pull-left">
-              <div class="h3">第1期</div>
-              <hr class="hrs">
-              <div class="h5">2015-09-06</div>
-            </div>
-            <div class="mirror-article pull-left">
-              <div class="h5">开刊啦！《一周Docker镜像精选》是一份专为Docker爱好者打造的IT技术周刊。我们会为您精选一周的优秀Docker镜像，每周一期，完全免费。《一周Docker镜像精选》只是开始，我们在路上，也欢迎极客们向我们投稿：service@tenxcloud.com</div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-
+          </a>
+        </div>
+      {{end}}
     </div>
   </div>
   <footer>
