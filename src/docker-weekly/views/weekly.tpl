@@ -21,7 +21,7 @@
     <div class="container">
       <a href="/"><span class="white-logo"></span></a>
       <div class="pull-right">
-        <a href='/'><span class="btn-hotlists todayhotlists active">今天推荐</span></a>
+        <a href='/'><span class="btn-hotlists todayhotlists active">最新一期</span></a>
         <a href='/issues'><span class="btn-hotlists historyhotlists">往期回顾</span></a>
       </div>
     </div>
